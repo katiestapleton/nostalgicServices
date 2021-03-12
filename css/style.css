@@ -865,10 +865,13 @@ body:after {
   z-index: 2;
   background: rgba(0, 0, 0, 0);
 }
+
 .site-blocks-cover,
 .site-blocks-cover > .container > .row {
-  min-height: 600px;
-  height: calc(100vh);
+  min-height: 500px;
+  height: 100%;
+  height: fit-content;
+  min-width: fit-content;
 }
 .site-blocks-cover.inner-page-cover,
 .site-blocks-cover.inner-page-cover > .container > .row {
